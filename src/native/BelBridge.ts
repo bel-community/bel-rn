@@ -26,3 +26,7 @@ export default {
    */
   close: () => {
     if (Platform.OS === 'ios' || Platform.OS === 'android') {
+      BelBridge?.close();
+    }
+  },
+} as BelBridgeModule;
