@@ -1,0 +1,35 @@
+# Dependencias
+node_modules/
+
+# Build / outputs
+dist/
+*.jsbundle
+*.map
+coverage/
+tmp/
+
+# Metro
+.metro-health-check*
+*.orig.*
+
+# Logs
+yarn-error.log
+npm-debug.log*
+
+# Entorno
+.env
+.env.local
+
+# Sistema operativo
+.DS_Store
+
+# Editores
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Expo (no usado, por si acaso)
+.expo/
